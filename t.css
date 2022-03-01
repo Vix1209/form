@@ -1,0 +1,71 @@
+body{
+    padding-left: 25%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.cover{
+    /* background-color: rgb(129, 73, 73); */
+    /* background-image: url("k/abstract.jpg"); */
+    border: 10px solid red;
+    width: 850px;
+    height: 400px;
+    /* padding-top: 100px; */
+    /* position: relative; */
+    /* padding-bottom: 0; */
+    /* text-align: center; */
+    right: 100px;
+    border-radius: 0px 50px;
+    padding-bottom: 20px;
+}
+
+/* image {
+    width: 50px;
+    height: auto;
+} */
+.container{
+    border-radius: 50px 0px ;
+    background-color: rgba(184, 50, 50, 0.2);
+    width: 750px;
+    height: 320px;
+    padding-left: 20px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    padding-bottom: 20px;
+}
+
+.header{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    position: relative;
+    bottom: 5px;
+}
+.content section{
+    position: relative;
+    top: 85px;
+    left: 285px;
+    padding: 5px 0px;
+
+}
+
+.footer{
+    position: relative;
+    left: 345px
+}
+.footer button:hover{
+    background-color: gray
+}
+p{
+    position: relative;
+    left: 300px
+}
+
+p a{
+    text-decoration: none;
+}
