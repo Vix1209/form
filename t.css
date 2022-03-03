@@ -1,22 +1,31 @@
 body{
     padding-left: 25%;
-    padding-top: 50px;
+    padding: 50px 0px;
     position: relative;
+    top: 70px;
+    background-image: url("k/ucee4.jpeg");
+    background-size: 230%;
+    background-repeat: no-repeat;
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+    /* width: 100%; */
+    /* height: 650px; */
 }
 
-.cover{
+#cover{
     /* background-color: rgb(129, 73, 73); */
     /* background-image: url("k/abstract.jpg"); */
-    border: 10px solid red;
-    width: 850px;
+    /* border: 10px solid red; */
+    /* width: 850px; */
     height: 400px;
     /* padding-top: 100px; */
     /* position: relative; */
     /* padding-bottom: 0; */
     /* text-align: center; */
-    right: 100px;
+    /* right: 100px; */
     border-radius: 0px 50px;
     padding-bottom: 20px;
+    
 }
 
 /* image {
@@ -24,15 +33,15 @@ body{
     height: auto;
 } */
 .container{
-    border-radius: 50px 0px ;
-    background-color: rgba(184, 50, 50, 0.2);
-    width: 750px;
-    height: 320px;
-    padding-left: 20px;
+    /* border-radius: 50px 0px ; */
+    /* background-color: rgba(78, 77, 77, 0.2); */
+    width: 100%;
+    height: auto;
     position: relative;
-    left: 40px;
-    top: 40px;
+    /* left: 40px; */
+    top: 70px;
     padding-bottom: 20px;
+    padding-left: -200px;
 }
 
 .header{
@@ -41,31 +50,69 @@ body{
     top: 40px;
     font-size:40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
 }
 .content{
     position: relative;
     bottom: 5px;
 }
-.content section{
+.content form{
     position: relative;
     top: 85px;
-    left: 285px;
+    /* left: 285px; */
+    text-align: center;
     padding: 5px 0px;
+}
 
+.content form input{
+    width: 300px;
 }
 
 .footer{
     position: relative;
-    left: 345px
+    /* left: 345px; */
+    text-align: center;
+}
+.footer button{
+    background-color: #8C6F4D;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
 }
 .footer button:hover{
-    background-color: gray
+    background-color:#755a3b;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 20px;
 }
 p{
     position: relative;
-    left: 300px
+    /* left: 300px */
+    text-align: center;
+    cursor:default;
+    color: aliceblue;
 }
 
 p a{
     text-decoration: none;
+    color: aqua;
+}
+
+@media (max-width: 768px) {
+    .footer button{
+        background-color: #AB2718;
+        color: aliceblue;
+    }
+    .footer button {
+        background-color: #64241d;
+    }
+    #cover{
+        border: 10px solid red;
+        border-radius: 0px 50px;
+        /* border-bottom: 10px; */
+        /* top: -30px; */
+    }
+    .container{
+        /* bottom: 15px; */
+    }
 }
